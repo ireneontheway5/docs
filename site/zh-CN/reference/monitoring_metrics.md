@@ -1,7 +1,5 @@
 ---
 id: monitoring_metrics.md
-title: Monitoring Metrics
-sidebar_label: Monitoring Metrics
 ---
 
 # 监控指标
@@ -21,9 +19,9 @@ Milvus 面板提供系统和数据库设置的具体信息。通过监控以下�
 | 指标                      | 说明                                                         |
 | ------------------------- | ------------------------------------------------------------ |
 | **Insert per Second**     | 每秒钟插入的向量数量（实时显示）。                           |
-| **Queries per Minute**    | 每秒钟运行的查询数量（实时显示）。                           |
+| **Queries per Minute**    | 每分钟运行的查询数量（实时显示）。                           |
 | **Query Time per Vector** | 单条向量查询时间 = 查询使用时间 / 向量数量                   |
-| **Query Service Level**   | 查询服务级别 = 一定时间阈值内的查询数量/总查询数量 <br/>一般建议设置3个时间阈值来跟踪查询服务基本。 |
+| **Query Service Level**   | 查询服务级别 = 一定时间阈值内的查询数量/总查询数量 <br/>一般建议设置 3 个时间阈值来跟踪查询服务基本。 |
 | **Uptime**                | Milvus服务器正常运行的时长（分钟）。                         |
 
 ## 硬件指标
@@ -47,5 +45,5 @@ Milvus 面板提供系统和数据库设置的具体信息。通过监控以下�
 | **Total File** | Milvus所存数据文件总个数。 |
 
 ## 相关阅读
-[监控与报警](../guides/monitor.md)
+[监控与报警](monitor.md)
 
